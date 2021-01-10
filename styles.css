@@ -270,6 +270,9 @@ body{
     .results{
         width: 100%;
     }
+    .change-btn{
+        display: none;
+        }
 }
 
 @media only screen and (max-width: 900px){
@@ -284,6 +287,7 @@ body{
     #play-again-box{
         top: 70%;   
     }
+   
 }
 
 @media only screen and (max-width: 700px){
