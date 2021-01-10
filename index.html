@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Lizard Spock</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dosis&family=Fjalla+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a class="change-btn" href="https://marekveselko.github.io/rock-paper-scissors/">
+        <img src="./images/exchange.png" alt="change"/>
+        <p>Play classic Rock Paper Scissors!</p>
+    </a>
+    <div class="scoreboard">
+        <img src="images/logo-bonus.svg" alt="logo">
+        <div class="scoreboard__score">
+            <p>Score</p>
+            <span id="score"></span>
+        </div>
+    </div>
+
+    <div id="play-again-box">
+    <h1 id="play-again-text">Texty text</h1>
+    <button id="play-again-btn">Play Again</button>
+    </div>
+
+    <div id="selections" class="selections">
+        <button class="selection paper" data-selection="paper">
+            <img src="images/icon-paper.png" alt="icon-paper">
+        </button>
+        <button class="selection rock" data-selection="rock">
+            <img src="images/icon-rock.png" alt="icon-rock">
+        </button>
+        <button class="selection scissors" data-selection="scissors">
+            <img src="images/icon-scissors.png" alt="icon-scissors">
+        </button>
+        <button class="selection lizard" data-selection="lizard">
+            <img src="images/icon-lizard.png" alt="icon-lizard">
+        </button>
+        <button class="selection spock" data-selection="spock">
+            <img src="images/icon-spock.png" alt="icon-spock">
+        </button>
+    </div>
+    <div id="results" class="results">
+<div></div>
+<div data-final-column></div>
+<!-- <div class="result__selection  winner">✊</div>
+<div class="result__selection">✌️</div> -->
+    </div>
+    <button id="rules-btn">rules</button>
+
+    <div id="rules-box">
+        <!-- <img src="images/image-rules.svg" alt="rules"/> -->
+        <video id="myVideo" controls>
+            <source src="./images/rules.mp4" type="video/mp4">        
+            Your browser does not support HTML video.
+          </video>
+        <button id="x-button">X</button>
+    </div>
+
+    <script src="app.js" defer></script>
+</body> 
+</html>
